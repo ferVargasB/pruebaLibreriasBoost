@@ -36,7 +36,7 @@ DISTNAME      = pruebaLibreriasBoost1.0.0
 DISTDIR = /Users/fernandovargas/Documents/pruebaLibreriasBoost/build-pruebaLibreriasBoost-Desktop_Qt_5_5_1_clang_64bit-Debug/.tmp/pruebaLibreriasBoost1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -headerpad_max_install_names -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -mmacosx-version-min=10.7 -Wl,-rpath,/Users/fernandovargas/Qt/5.5/clang_64/lib
-LIBS          = $(SUBLIBS) -F/Users/fernandovargas/Qt/5.5/clang_64/lib -L/Users/fernandovargas/lib -libboost_regex-gcc34-mt-d-1_36.a -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL 
+LIBS          = $(SUBLIBS) -F/Users/fernandovargas/Qt/5.5/clang_64/lib -L/Users/fernandovargas/lib -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL 
 AR            = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq
 RANLIB        = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib -s
 SED           = sed
@@ -174,6 +174,7 @@ DIST          = ../../../Qt/5.5/clang_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.5/clang_64/mkspecs/features/qt_config.prf \
 		../../../Qt/5.5/clang_64/mkspecs/macx-clang/qmake.conf \
 		../../../Qt/5.5/clang_64/mkspecs/features/spec_post.prf \
+		../pruebaLibreriasBoost/.qmake.stash \
 		../../../Qt/5.5/clang_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/5.5/clang_64/mkspecs/features/default_pre.prf \
 		../../../Qt/5.5/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -359,6 +360,7 @@ Makefile: ../pruebaLibreriasBoost/pruebaLibreriasBoost.pro ../../../Qt/5.5/clang
 		../../../Qt/5.5/clang_64/mkspecs/features/qt_config.prf \
 		../../../Qt/5.5/clang_64/mkspecs/macx-clang/qmake.conf \
 		../../../Qt/5.5/clang_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt/5.5/clang_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/5.5/clang_64/mkspecs/features/default_pre.prf \
 		../../../Qt/5.5/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -506,6 +508,7 @@ Makefile: ../pruebaLibreriasBoost/pruebaLibreriasBoost.pro ../../../Qt/5.5/clang
 ../../../Qt/5.5/clang_64/mkspecs/features/qt_config.prf:
 ../../../Qt/5.5/clang_64/mkspecs/macx-clang/qmake.conf:
 ../../../Qt/5.5/clang_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt/5.5/clang_64/mkspecs/features/exclusive_builds.prf:
 ../../../Qt/5.5/clang_64/mkspecs/features/default_pre.prf:
 ../../../Qt/5.5/clang_64/mkspecs/features/mac/default_pre.prf:
