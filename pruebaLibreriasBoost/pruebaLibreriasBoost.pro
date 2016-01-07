@@ -12,7 +12,7 @@ TARGET = pruebaLibreriasBoost
 TEMPLATE = app
 
 INCLUDEPATH += /Users/fernandovargas/include
-LIBS += -L/Users/fernandovargas/lib -libboost_regex-gcc34-mt-d-1_36.a
+LIBS += -L/Users/fernandovargas/lib
 
 SOURCES += main.cpp\
         aplicacion.cpp

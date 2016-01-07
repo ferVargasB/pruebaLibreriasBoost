@@ -1,5 +1,6 @@
 #include "aplicacion.h"
 #include "ui_aplicacion.h"
+#include "boost/regex.hpp"
 
 Aplicacion::Aplicacion(QWidget *parent) :
     QMainWindow(parent),
